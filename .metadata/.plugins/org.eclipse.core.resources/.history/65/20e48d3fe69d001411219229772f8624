@@ -1,0 +1,40 @@
+
+public class Visiteur implements VisiteurArbre {
+
+	@Override
+	public void visitArbre(Arbre a) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void visitNoeud(Noeud n) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void visitNoeudBinaire(NoeudBinaire n) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void visitNoeudValeur(NoeudValeur n) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void visitNoeudPlus(NoeudPlus n) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void visitNoeudMoins(NoeudMoins n) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
