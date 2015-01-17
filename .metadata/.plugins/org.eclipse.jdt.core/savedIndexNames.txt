@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/laurent/Documents/3INFO/annales/SDD/.metadata/.plugins/org.eclipse.jdt.core
+1224248686.index
+597361673.index

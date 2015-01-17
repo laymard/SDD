@@ -1,0 +1,4 @@
+
+public class NoeudValeur extends Noeud {
+
+}

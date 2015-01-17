@@ -1,0 +1,28 @@
+
+public class Arbre {
+	private String nom;
+	private Noeud racine;
+	
+	
+	
+	public Arbre(String nom, Noeud racine) {
+		super();
+		this.nom = nom;
+		this.racine = racine;
+	}
+
+	
+
+	public void visiter(){
+		this.racine.visiter();
+	}
+	
+	public static void main(String[] args) {
+		Noeud v1 = new NoeudValeur(1);
+		Noeud v2 = new NoeudValeur(2);
+		Noeud p1 = new NoeudPlus()
+		
+		Arbre a = new 
+	}
+
+}

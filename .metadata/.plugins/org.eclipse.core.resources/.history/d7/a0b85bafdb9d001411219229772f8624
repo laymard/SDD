@@ -1,0 +1,17 @@
+
+public class NoeudMoins extends NoeudBinaire {
+	
+	
+	
+	public NoeudMoins() {
+		super();
+	}
+
+	public void visiter(){
+		System.out.println("-");
+		this.filsG.visiter();
+		this.filsD.visiter();
+		
+	}
+
+}

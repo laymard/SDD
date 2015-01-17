@@ -1,0 +1,5 @@
+
+public interface Point {
+	public void setPoint(int x,int y);
+
+}
