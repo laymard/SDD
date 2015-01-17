@@ -27,14 +27,14 @@ public class Arbre {
 		Noeud v6 = new NoeudValeur(6);
 		Noeud v7 = new NoeudValeur(7);
 		
-		Noeud m1 = new NoeudMoins(v1,v2);
-		Noeud m2 = new NoeudMoins(v3,v4);
+		Noeud m1 = new NoeudPlus(v1,v2);
+		Noeud m2 = new NoeudPlus(v3,v4);
 		Noeud p4 = new NoeudPlus(m1,m2);
 		
 		
 		
 		
-		Arbre a = new Arbre("ta mere",p4);
+		Arbre a = new Arbre("ta mere",p1);
 		a.visiter();
 	}
 
